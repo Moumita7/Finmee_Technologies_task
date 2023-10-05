@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import HomeMiddle from "./HomeMiddle";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -45,6 +46,7 @@ const Home = () => {
       </div>
       {/* 2nd */}
     <HomeMiddle/>
+    <Footer/>
     </div>
   );
 };
