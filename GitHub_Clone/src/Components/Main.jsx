@@ -1,19 +1,21 @@
-import LeftScrol from "./LeftScrol"
-
+import LeftScrol from "./LeftScrol";
+import RideSide from "./RideSide";
 
 const Main = () => {
   return (
     <div className="border border-black w-[100%] h-[100vh] flex bg-[#0D1117]">
- <div className="w-[25%] border">
-    {/* Content for the left side (20%) */}
-    <LeftScrol />
-  </div>
-  <div className="w-[75%] border">
-    {/* Content for the right side (80%) */}
-    bshabk
-  </div>
-    </div>
-  )
-}
+    {/* left slide */}
+      <div className="w-[25%] border">
+        <LeftScrol />
+      </div>
+      {/* right slide */}
+      <div className="w-[75%] border flex text-white">
 
-export default Main
+      <RideSide/>
+      </div>
+     
+    </div>
+  );
+};
+
+export default Main;
