@@ -3,7 +3,7 @@ import RideSide from "./RideSide";
 
 const Main = () => {
   return (
-    <div className="border border-black w-[100%] h-[100vh] flex bg-[#0D1117]">
+    <div className="border border-black w-[100%] h-auto flex bg-[#0D1117]">
     {/* left slide */}
       <div className="w-[25%] border">
         <LeftScrol />
