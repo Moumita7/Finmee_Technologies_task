@@ -19,9 +19,7 @@ const HomeMiddle = () => {
               plan/production discrepancies, and correct resource models and
               production plans.
             </p>
-            {/* <button className="bg-[#FF3A2D] hover:bg-[#FF3A2D] px-10  py-3 mt-16 rounded-md text-white font-semibold text-xl">
-              Read More
-            </button> */}
+
             <button className="z-40  bg-[#FF3A2D] hover:bg-[#FF3A2D] px-8  py-2 mt-10 rounded-md text-white font-semibold ">
               Read More
             </button>
@@ -60,45 +58,14 @@ const HomeMiddle = () => {
               performance and help processing plants track, manage, optimize,
               and report key metrics.
             </p>
-            {/* <button className="bg-[#FF3A2D] hover:bg-[#FF3A2D] px-10  py-3 mt-16 rounded-md text-white font-semibold text-xl">
-              Read More
-            </button> */}
+
             <button className="z-40  bg-[#FF3A2D] hover:bg-[#FF3A2D] px-8  py-2 mt-10 rounded-md text-white font-semibold ">
               Read More
             </button>
           </div>
         </div>
       </div>
-      {/* <div className="flex justify-center content-center    items-center w-[100%] h-[80vh]  ">
-        <div className="flex items-center justify-between w-[95%]  ">
-          <div className=" flex  items-center">
-            <img
-              className="w-[100%]"
-              src="https://ntwist.com/wp-content/uploads/2021/12/iStock-1284372575.jpg"
-              alt=""
-            />
-          </div>
-          <div className="w-[99%]  pl-28 ">
-            <h1 className="font-semibold text-6xl text-[#FF3A2D] tracking-wider">
-              Sustainability{" "}
-            </h1>
 
-            <p className="text-[21px] pt-4 mt-4 tracking-wide ">
-              Environmental stewardship is a priority for NTWIST. We help our
-              customers to minimize their sustainability impact on the planet.
-              Emissions or environmental targets are used alongside productivity
-              targets to define success for our customers. With the increasing
-              relevance of carbon accounting and emissions tracking, NTWIST
-              offers a suite of tools to increase visibility into environmental
-              performance and help processing plants track, manage, optimize,
-              and report key metrics.
-            </p>
-            <button className="bg-[#FF3A2D] hover:bg-[#FF3A2D] px-10  py-3 mt-16 rounded-md text-white font-semibold text-xl">
-              Read More
-            </button>
-          </div>
-        </div>
-      </div> */}
       {/* 4th */}
       <div className=" flex justify-center content-center mt-12     w-[100%] h-auto   ">
         <div className="flex items-center justify-between w-[100%] px-7  ">
@@ -113,9 +80,7 @@ const HomeMiddle = () => {
               of feed variability, avoid downtime and increase peak throughput
               while decreasing energy and reagent consumption.
             </p>
-            {/* <button className="bg-[#FF3A2D] hover:bg-[#FF3A2D] px-10  py-3 mt-16 rounded-md text-white font-semibold text-xl">
-              Read More
-            </button> */}
+
             <button className="z-40  bg-[#FF3A2D] hover:bg-[#FF3A2D] px-8  py-2 mt-10 rounded-md text-white font-semibold ">
               Read More
             </button>
@@ -154,9 +119,7 @@ const HomeMiddle = () => {
               improvements, and reduce variability in any part of the process,
               thus providing enhanced reliability and safety.
             </p>
-            {/* <button className="bg-[#FF3A2D] hover:bg-[#FF3A2D] px-10  py-3 mt-16 rounded-md text-white font-semibold text-xl">
-              Read More
-            </button> */}
+
             <button className="z-40  bg-[#FF3A2D] hover:bg-[#FF3A2D] px-8  py-2 mt-10 rounded-md text-white font-semibold ">
               Read More
             </button>

@@ -18,11 +18,11 @@ const Home = () => {
     <div className="w-[100%]   h-[100vh] bg-[url('https://ntwist.com/wp-content/uploads/2023/01/home-image-bg-v6.png')]">
       <Navbar />
       <div className={`flex justify-between   items-center w-[100%]   $`}>
-        {/* <div className="flex justify-between   items-center w-[100%] pt-6 "> */}
+
 
         <div className="flex items-center p-8 justify-between  pt-28 ">
           <div className=" w-[50%]  ">
-            {/* <h1 className="font-bold text-5xl text-white ">Data-powered solutions </h1> */}
+
             <h1
               className={`z-100 font-bold text-4xl text-white ${
                 isVisible
