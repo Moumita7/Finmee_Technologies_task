@@ -2,6 +2,7 @@ import { BsFilter } from "react-icons/bs";
 import { PiStarThin } from "react-icons/pi";
 import { BiSolidDownArrow } from "react-icons/bi";
 import RightCard from "./RightCard";
+import { BsGithub } from "react-icons/bs";
 
 const RideSide = () => {
   return (
@@ -85,8 +86,7 @@ const RideSide = () => {
           </div>
         </div>
         {/* -----------------------2nd--------------------------- */}
-   
-   
+
         <div className="border border-slate-500 rounded-md p-4 relative bg-[#161B22] mt-4">
           <div className="flex gap-2 ">
             <img
@@ -139,9 +139,6 @@ const RideSide = () => {
             <p>58 repositories </p>
             <p>116 followers</p>
           </div>
-   
-       
-        
         </div>
 
         {/* ------------------------3rd------------------------------- */}
@@ -154,7 +151,7 @@ const RideSide = () => {
             />
             <div className="flex justify-between  w-[100%]">
               <div className="flex gap-2">
-                <p className="text-sm">manojmogal007  </p>
+                <p className="text-sm">manojmogal007 </p>
                 <span className="text-sm text-slate-500">
                   made this repository public
                 </span>
@@ -215,7 +212,7 @@ const RideSide = () => {
             />
             <div className="flex justify-between  w-[100%]">
               <div className="flex gap-2">
-                <p className="text-sm">charchit07   </p>
+                <p className="text-sm">charchit07 </p>
                 <span className="text-sm text-slate-500">
                   made this repository public
                 </span>
@@ -267,18 +264,50 @@ const RideSide = () => {
           </div>
         </div>
         {/* ------------------------------------------ */}
-        <button className="border w-[100%] mt-2 rounded-md py-1 bg-[#161B22] mt-4  text-[#2F81EA] border-slate-500">More</button>
-      {/* ----------------------- */}
-      <p>fyykckc</p>
-      <p>fyykckc</p>
-      <p>fyykckc</p>
-      <p>fyykckc</p>
-      <p>fyykckc</p>
-      <p>fyykckc</p>
-
+        <button className="border w-[100%] mt-2 rounded-md py-1 bg-[#161B22] mt-4  text-[#2F81EA] border-slate-500">
+          More
+        </button>
+        {/* ----------------------- */}
+        <div className="flex text-xs  text-slate-500 gap-[30%] mt-3">
+          <div className="flex gap-2 ">
+     
+            <div className="w-3">
+              <BsGithub />
+            </div>
+            <p>@2023 Github,Inc</p>
+          </div>
+          <div className="flex gap-6">
+            <div>
+              <ul>
+                <li>Blog</li>
+                <li>About</li>
+                <li>Shop</li>
+                <li>Contact</li>
+                <li>Github</li>
+                <li>Pricing</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li> API</li>
+                <li>Training</li>
+                <li>Status</li>
+                <li>Security</li>
+                Docs
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li> Terms</li>
+                <li>Privacy</li>
+                <li>Docs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="w-[35%] ">
-      <RightCard/>
+        <RightCard />
       </div>
     </>
   );

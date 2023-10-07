@@ -1,17 +1,13 @@
-import Main from "./Main"
-import NavBar from "./NavBar"
-
+import Main from "./Main";
+import NavBar from "./NavBar";
 
 const Home = () => {
   return (
     <div className="bg-[#0D1117]">
-
-
-        <NavBar/>
-
-        <Main/>
+      <NavBar />
+      <Main />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
