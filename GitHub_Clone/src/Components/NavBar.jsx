@@ -10,7 +10,7 @@ import { GoIssueOpened, GoCodespaces } from "react-icons/go";
 
 const NavBar = () => {
   return (
-    <div className="border border-b-slate-600 flex justify-between items-center py-3 px-4 bg-[#010409] text-white">
+    <div className="border-b-2   border-b-slate-600 flex justify-between items-center py-3 px-4 bg-[#010409] text-white">
       <div className=" flex items-center gap-4">
         <button className="border border-slate-500 p-[7px] rounded-md text-slate-500">
           <GiHamburgerMenu />

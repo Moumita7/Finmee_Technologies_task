@@ -2,7 +2,9 @@ import { BiSolidDownArrow } from "react-icons/bi";
 import { GoRepo } from "react-icons/go";
 const LeftScrol = () => {
   return (
-    <div className="absolute  left-[0px] w-[25%] max-h-[100%] overflow-y-auto bg-[#0D1117]  rounded-lg shadow-lg">
+    <div className="">
+    <div className="absolute  left-0 w-[100%] max-h-[100vh] overflow-y-auto bg-[#0D1117] rounded-lg shadow-lg">
+    {/* <div className="absolute border border-red-500  left-[0px] w-[25%] max-h-[80vh] overflow-y-auto bg-[#0D1117]  rounded-lg shadow-lg"> */}
     
       <div className="p-5 text-white">
         <div className="flex items-center gap-2">
@@ -129,22 +131,18 @@ const LeftScrol = () => {
             />
             <p className="text-sm">guptaneha0111/MyGlamm-clone</p>
           </li>
-          <li className="flex items-center gap-2 mb-2">
+          <li className="text-xs text-slate-500 my-4">show more</li>
+          {/* <li className="flex items-center gap-2 mb-2">
             <img
               className="w-5 h-5 rounded-[50%]"
               src="https://avatars.githubusercontent.com/u/97180521?s=16&v=4"
               alt=""
             />
             <p className="text-sm">Moumita7/DSA_450</p>
-          </li>
-          <li className="flex items-center gap-2 mb-7">
-            <img
-              className="w-5 h-5 rounded-[50%]"
-              src="https://avatars.githubusercontent.com/u/97180521?s=16&v=4"
-              alt=""
-            />
-            <p className="text-sm">Moumita7/YoutubeClone</p>
-          </li>
+          </li> */}
+          {/* --- */}
+  
+          
         </ul>
         {/* 4th */}
         <p className="mb-2">Recent activity</p>
@@ -173,6 +171,7 @@ const LeftScrol = () => {
           </li>
         </ul>
       </div>
+    </div>
     </div>
   );
 };

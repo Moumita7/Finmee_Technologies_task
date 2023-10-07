@@ -4,8 +4,11 @@ import NavBar from "./NavBar"
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-[#0D1117]">
+
+
         <NavBar/>
+
         <Main/>
     </div>
   )

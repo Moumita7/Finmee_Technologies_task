@@ -1,11 +1,12 @@
 import { BsFilter } from "react-icons/bs";
 import { PiStarThin } from "react-icons/pi";
 import { BiSolidDownArrow } from "react-icons/bi";
+import RightCard from "./RightCard";
 
 const RideSide = () => {
   return (
     <>
-      <div className="w-[70%] border  px-8 py-4">
+      <div className="w-[70%]    px-8 py-4 ">
         {/* -----------------1st------------------------------ */}
         <div className="flex justify-between ">
           <p>Home</p>
@@ -267,8 +268,18 @@ const RideSide = () => {
         </div>
         {/* ------------------------------------------ */}
         <button className="border w-[100%] mt-2 rounded-md py-1 bg-[#161B22] mt-4  text-[#2F81EA] border-slate-500">More</button>
+      {/* ----------------------- */}
+      <p>fyykckc</p>
+      <p>fyykckc</p>
+      <p>fyykckc</p>
+      <p>fyykckc</p>
+      <p>fyykckc</p>
+      <p>fyykckc</p>
+
       </div>
-      <div className="w-[35%] border">reg</div>
+      <div className="w-[35%] ">
+      <RightCard/>
+      </div>
     </>
   );
 };
