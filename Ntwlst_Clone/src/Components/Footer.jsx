@@ -54,12 +54,12 @@ const Footer = () => {
     <div className=" h-[60vh] bg-[#081528] text-white content-center flex flex-col justify-center text-center items-center">
       <div className=" content-center flex flex-col justify-center text-center items-center">
         <img
-          className="w-[18%]  "
+          className="w-[16%]  "
           src="https://ntwist.com/wp-content/uploads/2021/12/ntwistlight.png"
           alt=""
         />
         <div>
-          <ul className="flex gap-5 text-xl p-5">
+          <ul className="flex gap-5 text-lg p-5">
             <li>Home</li>
             <li>About Us</li>
             <li>Contact Us</li>
@@ -67,7 +67,7 @@ const Footer = () => {
             <li>Sitemap</li>
           </ul>
         </div>
-        <p className="text-xl text-slate-500">
+        <p className="text-lg text-slate-500">
           9650 20 Ave NW, Edmonton, AB, T6N 1G1, Canada
         </p>
         <div className="flex   w-[12%] items-center justify-between px-5 py-3">
@@ -78,7 +78,7 @@ const Footer = () => {
             <AiFillLinkedin />
           </div>
         </div>
-        <p className="text-xl text-slate-500">© 2022. Ntwist Inc.</p>
+        <p className="text-base text-slate-500">© 2022. Ntwist Inc.</p>
       </div>
       <div className="  flex  w-[100%] justify-between px-20 h-[8%] fixed bottom-6 right-5 ">
         <div
@@ -101,7 +101,7 @@ const Footer = () => {
                 {countriess.map((country, index) => {
                   return (
                     <div key={index} className="flex m-2">
-                      <img src={country.img} className="w-16" alt="" />
+                      <img src={country.img} className="w-14" alt="" />
 
                       <li className="px-4 py-2 text-black hover:bg-gray-100 cursor-pointer">
                         {country.state}
