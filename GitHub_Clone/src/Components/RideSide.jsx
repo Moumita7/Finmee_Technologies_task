@@ -153,7 +153,8 @@ const RideSide = () => {
               <div className="flex gap-2">
                 <p className="text-sm">manojmogal007 </p>
                 <span className="text-sm text-slate-500">
-                  made this repository public
+                followed 
+1 users
                 </span>
               </div>
               <p>...</p>
@@ -256,6 +257,8 @@ const RideSide = () => {
               </div>
             </button>
           </div>
+      
+          
 
           {/* lasstt */}
           <div className="flex items-center gap-2 px-5 pb-3">
@@ -263,7 +266,62 @@ const RideSide = () => {
             <p className="text-xs">CSS</p>
           </div>
         </div>
-        {/* ------------------------------------------ */}
+        {/* ---------------------6th--------------------- */}
+        <div className="border border-slate-500 rounded-md p-4 relative bg-[#161B22] mt-4">
+          <div className="flex gap-2 ">
+            <img
+              className="w-9 rounded-[50%]"
+              src="https://avatars.githubusercontent.com/u/107506646?s=96&v=4"
+              alt=""
+            />
+            <div className="flex justify-between  w-[100%]">
+              <div className="flex gap-2">
+                <p className="text-sm">Shikha Gupta   </p>
+                <span className="text-sm text-slate-500">
+                followed 
+1 users
+                </span>
+              </div>
+              <p>...</p>
+            </div>
+          </div>
+          {/* time */}
+          <div className="flex gap-2 absolute top-9 left-11">
+            <div className="border-2 w-4 h-4 rounded-[50%] border-gray-900">
+              <img
+                className="w-6"
+                src="https://github.githubassets.com/images/icons/feeds/feed-public.svg"
+                alt=""
+              />
+            </div>
+            <p className="text-xs text-slate-500">11 hours ago</p>
+          </div>
+          {/* last */}
+          <div className="flex justify-between px-4 pt-5  relative">
+            <div className="flex items-center gap-2">
+              <img
+                className="w-11 rounded-[50%]"
+                src="https://avatars.githubusercontent.com/u/108007506?s=96&v=4"
+                alt=""
+              />
+              <div className="flex gap-2">
+                <p className="text-sm">Prince Singh </p>
+                <span className="text-sm text-slate-500"> mrprincesingh</span>
+              </div>
+            </div>
+            <button className="  border-slate-500  bg-slate-800 px-3  rounded-md">
+              <p className="text-xs">Follow</p>
+            </button>
+          </div>
+          <p className="text-sm mt-2 px-[12%] absolute top-24 ">
+            Passionate Full-Stack Web Developer || MERN Developer
+          </p>
+          <div className="flex px-[12.5%] text-sm mt-2 gap-4 text-slate-500">
+            <p>58 repositories </p>
+            <p>116 followers</p>
+          </div>
+        </div>
+
         <button className="border w-[100%] mt-2 rounded-md py-1 bg-[#161B22] mt-4  text-[#2F81EA] border-slate-500">
           More
         </button>
