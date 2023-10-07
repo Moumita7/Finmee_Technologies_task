@@ -96,7 +96,7 @@ const RideSide = () => {
             />
             <div className="flex justify-between  w-[100%]">
               <div className="flex gap-2">
-                <p className="text-sm">ignitinsharma </p>
+                <p className="text-sm">Ujjawal0203  </p>
                 <span className="text-sm text-slate-500">
                   made this repository public
                 </span>
@@ -113,7 +113,7 @@ const RideSide = () => {
                 alt=""
               />
             </div>
-            <p className="text-xs text-slate-500">4 hours ago</p>
+            <p className="text-xs text-slate-500">11 hours ago</p>
           </div>
           {/* last */}
           <div className="flex justify-between px-4 pt-5  relative">
